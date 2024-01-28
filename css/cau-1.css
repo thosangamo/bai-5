@@ -1,0 +1,40 @@
+
+ul {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+}
+
+
+.menu-1 li {
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 300px;
+}
+
+.menu-1 li:hover {
+  background-color: #0056B6;
+  color: white;
+}
+
+.menu-2 li {
+  display: inline;
+  margin-left: 10px;
+}
+
+.menu-2 li a {
+  background-color: #ddd;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: black;
+}
+
+.menu-2 li a:hover {
+  background-color: #C54200;
+  color: white;
+}
